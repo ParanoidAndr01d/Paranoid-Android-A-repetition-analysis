@@ -25,7 +25,6 @@ on rain down on me thats it, sir youre leaving the crackle of pigskin the dust a
 the panic, the vomit the panic, the vomit God loves his children God loves his children, yeah"
 
 # Apostrophes were removed and contractions (such as "I'm", "what's", "you're", etc) are being counted as one word.
-# A space was added before punctuation marks in order for them to be counted separately
 
 # Using re to split the words and the punctuation
 split_lyrics = re.findall(r"[\w']+|[.,!?;]", paranoid_lyrics)
